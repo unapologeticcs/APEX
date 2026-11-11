@@ -1,0 +1,8 @@
+{
+  "name": "APEX — Talent Discovery & University Connections",
+  "description": "EdTech web application connecting talented secondary students with professors, university programs, academic competitions, and research opportunities.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

@@ -1,0 +1,1597 @@
+Talent Discovery, Academic Development & University Connections
+
+Build a complete, interactive, responsive EdTech web application. Do not create only a landing page or a static UI mockup. Create a functional front-end prototype with clearly connected pages, navigation, realistic interactions, user flows, forms, dashboards, and demo data.
+
+The platform connects talented high school students with professors, universities, educational programs, academic competitions, research opportunities, and educational organizations.
+
+The platform must help students discover opportunities, understand their academic interests, develop relevant skills, demonstrate their abilities, and become visible to universities through their actual work.
+
+PART 1. PRODUCT IDENTITY
+
+1.1. Name and slogan
+
+Use a temporary product name: APEX
+
+The name can be changed later.
+
+Main slogan:
+
+“Talent is everywhere. Opportunities aren’t.”
+
+Supporting message:
+
+“Discover your potential. Develop your skills. Make your work visible.”
+
+1.2. Product philosophy
+
+The platform is built around three main stages:
+
+1. DISCOVER — explore academic fields, educational opportunities, programs, competitions, scholarships, and challenges.
+2. DEVELOP — build skills, follow a personalized growth plan, and collect evidence of achievements.
+3. CONNECT — submit work to professors, receive feedback, and share achievements with universities.
+
+The platform must not replace the student’s effort or independent thinking.
+
+AI is a mentor and assistant, not an automatic decision-maker.
+
+Core principle:
+
+“AI doesn’t replace student effort. It amplifies student potential.”
+
+AI can organize information, suggest opportunities, ask questions, explain requirements, and provide feedback. Students remain responsible for their decisions, applications, academic work, and achievements.
+
+PART 2. DESIGN SYSTEM AND VISUAL IDENTITY
+
+2.1. Overall aesthetic
+
+Create a beautiful, modern, premium-looking interface.
+
+Visual direction:
+
+* Fresh academic aesthetic.
+* Editorial minimalism.
+* Modern technology.
+* Soft pastel colors.
+* Clean white backgrounds.
+* Elegant typography.
+* Subtle futuristic details.
+
+The website should look like a professionally designed international EdTech startup, not a generic AI-generated dashboard.
+
+It should feel intelligent, welcoming, creative, and trustworthy.
+
+2.2. Color palette
+
+Use these exact colors as the starting design system:
+
+* White: #FFFFFF — primary background.
+* Matcha Green: #B7E6A5 — primary accent.
+* Soft Pink: #F6C9D5 — secondary accent.
+* Sage Green: #F3F7F0 — secondary background.
+* Dark Text: #26332D — primary typography.
+* Muted Text: #78847B — secondary typography.
+* Light Border: #E7ECE6 — dividers and card borders.
+
+Color distribution:
+
+* 65–75% white and very light backgrounds.
+* Matcha green for primary buttons, active navigation, progress indicators, and important highlights.
+* Soft pink for secondary cards, illustrations, badges, and decorative details.
+* Sage green for selected sections and subtle card backgrounds.
+* Dark charcoal for readable text.
+
+Do not use pink and green everywhere. Keep the interface balanced and professional.
+
+2.3. Typography
+
+Use a combination of:
+
+* An elegant, expressive heading font.
+* A clean, modern sans-serif font for body text and interface elements.
+
+Typography should have a clear hierarchy:
+
+* Large editorial headlines on the landing page.
+* Medium section headings.
+* Compact but readable dashboard labels.
+* Consistent text sizes and spacing.
+
+2.4. UI components
+
+Use:
+
+* Rounded cards with consistent corner radii.
+* Thin borders.
+* Very subtle shadows.
+* Beautiful, minimal icons.
+* Clear buttons with visible hover and active states.
+* Consistent spacing.
+* Elegant progress bars.
+* Small status badges.
+* Smooth page transitions.
+* Subtle animations when cards appear.
+* Thoughtful empty states and loading states.
+
+Avoid:
+
+* Excessive gradients.
+* Neon colors.
+* Heavy shadows.
+* Crowded dashboards.
+* Unnecessary decorative elements.
+* Too many different card styles.
+
+Make the entire platform responsive for desktop, tablet, and mobile.
+
+PART 3. LANDING PAGE — FIRST WINDOW
+
+The landing page is the first thing visitors see.
+
+Create a polished, visually engaging homepage.
+
+3.1. Navigation bar
+
+At the top:
+
+* Logo: POTENTIAL.
+* Home.
+* How It Works.
+* Opportunities.
+* For Universities.
+* Sign In.
+* Get Started.
+
+Use a clean navigation bar with a white background.
+
+The Get Started button should be highlighted in matcha green.
+
+3.2. Hero section
+
+Large headline:
+
+“Talent is everywhere. Opportunities aren’t.”
+
+Supporting text:
+
+“Discover academic opportunities, develop your potential, and connect with the people who can help shape your future.”
+
+Two buttons:
+
+* Explore Opportunities
+* Join the Platform
+
+Add a beautiful visual composition on the right side, such as an academic profile preview, floating opportunity cards, achievement badges, and a subtle progress visualization.
+
+Do not make the hero section look like a generic corporate template.
+
+3.3. Three-step explanation
+
+Create three visual cards:
+
+DISCOVER:
+“Find opportunities you didn’t know existed.”
+
+DEVELOP:
+“Build your skills and create your academic portfolio.”
+
+CONNECT:
+“Showcase your work and connect with academic communities.”
+
+3.4. Additional landing page sections
+
+Include:
+
+* Featured academic opportunities.
+* How Professor Challenges work.
+* Why students use the platform.
+* How universities and professors benefit.
+* Explanation of the AI Mentor philosophy.
+* Final registration call to action.
+* Footer with About, Contact, Terms, and Privacy.
+
+All navigation buttons must work.
+
+PART 4. AUTHENTICATION AND REGISTRATION
+
+When a visitor clicks Get Started, open the registration flow.
+
+Do not immediately show a long form.
+
+Registration should be divided into clear steps with a progress indicator.
+
+4.1. First registration window — Choose Your Role
+
+Headline:
+
+“How will you use POTENTIAL?”
+
+Display two large selectable cards.
+
+CARD 1 — STUDENT
+
+Description:
+“Discover opportunities, develop your academic profile, and showcase your work.”
+
+Button:
+“I’m a Student”
+
+CARD 2 — TEACHER / PROFESSOR
+
+Description:
+“Create academic challenges, review student work, and discover emerging talent.”
+
+Button:
+“I’m a Teacher / Professor”
+
+The selected role determines the rest of the registration flow.
+
+4.2. Student registration — Step 1: Create Account
+
+Fields:
+
+* Full name or preferred display name.
+* Email address.
+* Password.
+* Confirm password.
+
+Include:
+
+* Show/hide password.
+* Password validation.
+* Email validation.
+* Terms and Privacy acknowledgement.
+* Create Account button.
+* Already have an account? Sign In.
+
+Use a secure authentication provider if available. Never store plain-text passwords.
+
+4.3. Student registration — Step 2: Basic Information
+
+Headline:
+
+“Tell us a little about yourself.”
+
+Fields:
+
+* Display name.
+* Current grade: 8, 9, 10, 11, 12, or equivalent.
+* Country.
+* Region or city.
+* School type: Public / Private / Other.
+
+Do not ask for a home address or personal phone number.
+
+4.4. Student registration — Step 3: Academic Interests
+
+Headline:
+
+“What are you interested in?”
+
+Allow students to select up to three main academic fields.
+
+Display visually appealing selectable cards:
+
+1. Law & Politics.
+2. Science & Research.
+3. Technology & Engineering.
+4. Business & Economics.
+5. Arts & Humanities.
+6. Social Sciences.
+7. Medicine & Life Sciences.
+8. Mathematics & Natural Sciences.
+
+Each card should have a minimal icon and short description.
+
+Allow selecting one to three options.
+
+4.5. Student registration — Step 4: Specific Interests
+
+After selecting academic fields, show more detailed questions.
+
+For example, if the student selected Law & Politics, show:
+
+* International Relations.
+* International Law.
+* Human Rights.
+* Political Science.
+* Public Policy.
+* Debate and Public Speaking.
+* Legal Research.
+
+If the student selected Science & Research, show:
+
+* Physics.
+* Biology.
+* Chemistry.
+* Astronomy.
+* Environmental Science.
+* Neuroscience.
+* Scientific Research.
+
+Show relevant subfields based on the student’s selected interests.
+
+Allow multiple selections.
+
+4.6. Student registration — Step 5: Academic Preferences
+
+Ask questions that help personalize opportunity discovery.
+
+Fields:
+
+* Preferred study format: Online / Offline / Both.
+* Preferred opportunity location: Local / International / Both.
+* Interested in scholarships? Yes / No / Not sure.
+* Interested in exchange programs? Yes / No / Not sure.
+* Interested in research programs? Yes / No / Not sure.
+* Preferred opportunity level: Beginner / Intermediate / Advanced / Open to all.
+
+Optionally ask:
+
+“How much time can you realistically dedicate to academic development each week?”
+
+Options:
+
+* 1–2 hours.
+* 3–5 hours.
+* 6–8 hours.
+* More than 8 hours.
+* Not sure yet.
+
+Explain that this information is used to recommend realistic opportunities and plans.
+
+4.7. Student registration — Step 6: Final Review
+
+Display a summary:
+
+* Name.
+* Grade.
+* Region.
+* Selected fields.
+* Specific interests.
+* Preferences.
+
+Buttons:
+
+* Edit Profile.
+* Complete Registration.
+
+After completion, redirect the student to the Student Dashboard.
+
+Do not make the student fill in every optional detail before accessing the platform.
+
+PART 5. STUDENT DASHBOARD
+
+After registration, the student enters a personalized dashboard.
+
+Create a persistent sidebar navigation on desktop and a responsive mobile navigation.
+
+Student navigation — exactly seven main sections
+
+1. Home.
+2. Discover.
+3. My Journey.
+4. Professor Challenges.
+5. My Portfolio.
+6. Discussions.
+7. My Profile.
+
+Place a small account/avatar menu at the bottom of the sidebar.
+
+On mobile, use a compact bottom navigation or a collapsible menu.
+
+PART 6. HOME — STUDENT DASHBOARD
+
+This is the student’s main overview page.
+
+Display:
+
+Welcome section
+
+“Welcome back, [Student Name]!”
+
+Subtitle:
+
+“Your next opportunity might be closer than you think.”
+
+Profile completion card
+
+Display a progress indicator, for example:
+
+“Profile completeness: 75%”
+
+Show missing profile information and a button to complete it.
+
+Recommended opportunities
+
+Show three or four opportunity cards based on:
+
+* Academic interests.
+* Grade level.
+* Country.
+* Preferences.
+* Eligibility.
+
+Each card includes:
+
+* Title.
+* Category.
+* Deadline.
+* Eligibility summary.
+* Location or format.
+* View Details button.
+
+Active Professor Challenges
+
+Display challenges the student has saved or started.
+
+Growth Plan overview
+
+Show:
+
+* Current goals.
+* Completed tasks.
+* Upcoming tasks.
+* Overall progress.
+
+Upcoming deadlines
+
+Display saved opportunities and active challenge deadlines in chronological order.
+
+Use realistic demo data, clearly marked as demo data.
+
+PART 7. DISCOVER — OPPORTUNITY DISCOVERY SYSTEM
+
+This is one of the most important sections of the platform.
+
+Create a dedicated page where students can discover different educational opportunities.
+
+The page should contain category tabs:
+
+1. All Opportunities.
+2. Competitions.
+3. Essay Competitions.
+4. Research Programs.
+5. Scholarships & Grants.
+6. Exchange Programs.
+7. Summer Schools.
+8. University Programs.
+9. Olympiads.
+10. Volunteering & Academic Projects.
+
+7.1. Search and filters
+
+At the top, add a search bar:
+
+“Search opportunities, programs, competitions…”
+
+Add filters:
+
+* Academic field.
+* Country.
+* Grade level.
+* Deadline.
+* Online / Offline.
+* Free / Paid / Scholarship available.
+* Beginner / Intermediate / Advanced.
+
+Include a sorting option:
+
+* Recommended.
+* Deadline soonest.
+* Recently added.
+
+7.2. Opportunity cards
+
+Each opportunity card must show:
+
+* Opportunity name.
+* Organization.
+* Category.
+* Short description.
+* Eligibility.
+* Application deadline.
+* Location.
+* Cost or scholarship information, if known.
+* Official source indicator.
+* Save button.
+
+Buttons:
+
+* View Details.
+* Save Opportunity.
+
+7.3. Opportunity details window
+
+When a student opens an opportunity, show a detailed page or modal.
+
+Include:
+
+* Full description.
+* Who can apply.
+* Required documents.
+* Application steps.
+* Important dates.
+* Fees and funding information.
+* Official application website.
+* Source link.
+* Last verified date, when available.
+
+Add a button:
+
+“Visit Official Website”
+
+Never fabricate real deadlines, scholarship details, eligibility requirements, or application links.
+
+For the prototype, use clearly labeled fictional demo opportunities if real data is unavailable.
+
+7.4. Opportunity Discovery AI Assistant
+
+Add a button:
+
+“Help Me Find Opportunities”
+
+When clicked, open a conversational AI assistant.
+
+The assistant should first understand the student’s interests and preferences.
+
+Example questions:
+
+* What academic field interests you most?
+* Are you looking for competitions, research programs, scholarships, or exchange opportunities?
+* Which countries are you considering?
+* What grade are you currently in?
+* How much time can you dedicate?
+
+The AI should recommend potentially relevant opportunities and explain why they may fit.
+
+IMPORTANT:
+
+The AI must not make the final decision for the student.
+
+It should encourage students to read official requirements, compare programs, check eligibility, and make their own decisions.
+
+When reliable sources are available, provide official links and distinguish verified information from suggestions.
+
+PART 8. MY JOURNEY — PERSONALIZED GROWTH PLAN
+
+Create a dedicated development page.
+
+Headline:
+
+“Your academic journey.”
+
+This section helps students turn interests into realistic goals and actions.
+
+8.1. Initial AI assessment
+
+When opening My Journey for the first time, ask:
+
+* What are your academic goals?
+* What would you like to improve?
+* Are you preparing for university applications?
+* Are you interested in competitions or research?
+* How much time can you dedicate weekly?
+* What activities are you already involved in?
+
+The AI should use existing profile information to avoid asking the same questions repeatedly.
+
+8.2. Growth Plan generation
+
+Generate a suggested plan based on:
+
+* Academic interests.
+* Grade level.
+* Goals.
+* Existing achievements.
+* Weekly availability.
+* Existing extracurricular commitments.
+
+Organize the plan into:
+
+* Short-term goals.
+* Monthly milestones.
+* Weekly tasks.
+* Suggested opportunities.
+* Skills to develop.
+
+Example:
+
+Student interest: Law & Politics.
+
+Suggested activities:
+
+1. Explore basic international law concepts.
+2. Read introductory material about human rights.
+3. Participate in a debate competition.
+4. Find an essay competition.
+5. Develop a small research project.
+6. Add completed work to the portfolio.
+
+8.3. Student control
+
+The AI-generated plan is only a proposal.
+
+Students must be able to:
+
+* Accept suggested tasks.
+* Edit tasks.
+* Delete tasks.
+* Add their own goals.
+* Change deadlines.
+* Mark tasks as completed.
+* Adjust weekly availability.
+
+Do not force students to follow the AI’s recommendations.
+
+8.4. Free and Premium distinction
+
+FREE:
+
+* Basic personalized growth plan.
+* Suggested milestones.
+* Task checklist.
+* Progress tracking.
+
+PREMIUM:
+
+* Advanced personalized plan.
+* More detailed recommendations.
+* Progress-based plan adjustments.
+* Deeper analysis of skills and development areas.
+
+PART 9. PROFESSOR CHALLENGES
+
+This is one of the platform’s most important differentiating features.
+
+Create a separate page called:
+
+“Professor Challenges”
+
+The purpose is to let professors publish academic tasks and allow school students to demonstrate their abilities through actual work.
+
+9.1. Student Challenge Discovery
+
+Display a list of available challenges.
+
+Filters:
+
+* Academic field.
+* Subject.
+* Difficulty.
+* Deadline.
+* Challenge type.
+* Professor or university.
+
+Challenge types:
+
+* Essay.
+* Research Proposal.
+* Problem Solving.
+* Case Study.
+* Scientific Project.
+* Critical Analysis.
+* Creative Academic Task.
+
+Each challenge card includes:
+
+* Challenge title.
+* Professor’s name.
+* University.
+* Subject.
+* Short description.
+* Difficulty.
+* Deadline.
+* Estimated time required.
+* Submission status.
+
+Buttons:
+
+* View Challenge.
+* Save Challenge.
+
+9.2. Challenge Details Page
+
+When a student opens a challenge, show:
+
+* Challenge title.
+* Professor information.
+* University or institution.
+* Academic field.
+* Subject.
+* Full instructions.
+* Learning objectives.
+* Required format.
+* Word or page limits, if applicable.
+* Deadline.
+* Evaluation criteria.
+* Submission requirements.
+
+Display a clear button:
+
+“Start Challenge”
+
+9.3. Challenge Submission Process
+
+After clicking Start Challenge, open a dedicated submission window.
+
+Show:
+
+* Challenge title.
+* Submission instructions.
+* Upload file area.
+* Supported formats: PDF, DOCX, JPG, PNG, subject to implementation.
+* Optional short description.
+* Confirmation checkbox that the submission is the student’s own work.
+
+Button:
+
+“Submit My Work”
+
+After submission:
+
+1. Validate the file type and size.
+2. Upload the file to secure storage.
+3. Link the submission to the exact challenge and student account.
+4. Save the submission date.
+5. Change the status to “Submitted”.
+6. Show a confirmation message.
+7. Display the submission in the student’s My Submissions area or challenge detail page.
+
+Submission statuses:
+
+* Not Started.
+* In Progress.
+* Submitted.
+* Under Review.
+* Feedback Available.
+
+Students must be able to see their own submissions and their statuses.
+
+Other students must not be able to access private submissions.
+
+9.4. Feedback Process
+
+When a professor reviews the work, they can provide:
+
+* General feedback.
+* Strengths.
+* Areas for improvement.
+* Comments on reasoning.
+* Suggestions for further development.
+
+The student receives a notification when feedback becomes available.
+
+Feedback is private by default.
+
+The student can choose whether to add the completed work or selected achievement to their portfolio.
+
+Do not automatically publish submitted assignments.
+
+PART 10. MY PORTFOLIO
+
+Create a visually polished academic portfolio page.
+
+This page should feel like a professional personal academic profile.
+
+10.1. Profile header
+
+Display:
+
+* Student display name.
+* Grade.
+* Region or country.
+* Main academic interests.
+* Short self-written introduction.
+* Profile visibility status.
+* Edit Profile button.
+
+10.2. Portfolio sections
+
+Create the following sections:
+
+1. Academic Achievements.
+2. Research & Projects.
+3. Competitions.
+4. Certificates.
+5. Extracurricular Activities.
+6. Volunteering.
+7. Professor Challenge Results.
+8. Skills & Interests.
+
+10.3. Adding an achievement
+
+Add a prominent button:
+
+“+ Add Achievement”
+
+Open a form with:
+
+* Achievement title.
+* Category.
+* Organization.
+* Year.
+* Result or award.
+* Short description written by the student.
+* Optional file upload.
+* Visibility setting.
+
+After saving, display the achievement as a portfolio card.
+
+Allow students to edit and delete their own entries.
+
+10.4. AI Portfolio Assistant
+
+The AI must NOT create fictional achievements or write a complete portfolio on behalf of the student.
+
+It can:
+
+* Ask clarifying questions.
+* Help the student organize information.
+* Suggest clearer descriptions.
+* Identify missing details.
+* Suggest which skills an achievement demonstrates.
+
+Example:
+
+Student writes:
+
+“I participated in a debate competition.”
+
+AI asks:
+
+“What was your role? Did you prepare arguments, research the topic, or speak during the debate?”
+
+The student provides the details and writes the final description.
+
+10.5. AI Portfolio Analysis — Premium
+
+Analyze the student’s existing portfolio.
+
+Provide:
+
+* Identified strengths.
+* Demonstrated skills.
+* Potential development areas.
+* Suggestions for future projects.
+* Possible next steps.
+
+Clearly distinguish actual achievements from AI-generated suggestions.
+
+PART 11. STUDENT PROFILE AND VISIBILITY
+
+Every student should have an individual profile.
+
+Create two profile views:
+
+1. Private profile view for the student.
+2. Public or organization-visible profile view, depending on the student’s consent settings.
+
+Profile information:
+
+* Display name.
+* Grade.
+* Region.
+* Academic interests.
+* Short self-written biography.
+* Achievements.
+* Projects.
+* Skills.
+* Professor Challenge results.
+* Portfolio sections.
+
+Add visibility settings:
+
+* Private.
+* Visible to approved academic organizations.
+* Public portfolio link, if enabled.
+
+Students must be able to change these settings.
+
+Do not expose private contact information.
+
+Do not create a public ranking of students. Different academic fields cannot be fairly compared using one overall score.
+
+Show achievements and demonstrated skills instead.
+
+PART 12. DISCUSSIONS — STUDENT COMMUNITY
+
+Create a separate navigation window called:
+
+“Discussions”
+
+This is a community space for academic conversations.
+
+It should NOT be the central feature of the platform.
+
+12.1. Discussion feed
+
+Show posts in a clean, readable feed.
+
+Post categories:
+
+* Science.
+* Law & Politics.
+* Research.
+* University Life.
+* Competitions.
+* General Academic Questions.
+
+Each post includes:
+
+* Display name.
+* Academic interests.
+* Post title.
+* Post content.
+* Category.
+* Date.
+* Comment count.
+* Like button.
+* Report button.
+
+12.2. Creating a post
+
+Add a button:
+
+“Create Post”
+
+Form:
+
+* Title.
+* Category.
+* Content.
+* Optional attachment, if supported.
+
+Before publishing, check the content against community guidelines.
+
+12.3. Moderation
+
+Because the platform is intended for school students, moderation and privacy are essential.
+
+Include:
+
+* Report button.
+* Reporting reasons.
+* Community Guidelines.
+* Flagged-content review queue for administrators.
+* Basic automated content checks.
+* Human review for serious or disputed cases.
+
+Reporting alone must not automatically prove that a post violates the rules.
+
+Do not include private messaging in the initial version.
+
+Do not allow users to publish personal phone numbers, home addresses, or private contact details.
+
+For the prototype, use fictional discussion posts and simulated moderation cases. Do not claim that a full moderation team or production-grade AI moderation system exists unless implemented.
+
+PART 13. TEACHER / PROFESSOR DASHBOARD
+
+Teachers and professors must have a separate interface.
+
+After teacher registration and onboarding, redirect them to the Teacher Dashboard.
+
+Create a persistent sidebar with these sections:
+
+1. Home.
+2. Create Challenge.
+3. My Challenges.
+4. Submissions.
+5. Discover Students.
+6. Saved Profiles.
+7. My Profile.
+
+13.1. Teacher Home
+
+Display:
+
+* Welcome message.
+* Active challenges.
+* Total submissions.
+* Submissions awaiting review.
+* Recently received work.
+* Quick action: Create New Challenge.
+
+Use fictional demo statistics and label them as demo data.
+
+13.2. Create Challenge
+
+This is a core teacher feature.
+
+Add a prominent button:
+
+“+ Create New Challenge”
+
+When clicked, open a multi-step form.
+
+STEP 1 — Challenge Information
+
+Fields:
+
+* Challenge title.
+* Short description.
+* Full instructions.
+* Academic field.
+* Subject.
+* Faculty or department.
+* Challenge type.
+
+STEP 2 — Requirements
+
+Fields:
+
+* Eligible grade levels.
+* Difficulty level.
+* Required file format.
+* Word or page limits.
+* Estimated time required.
+* Submission deadline.
+* Evaluation criteria.
+
+STEP 3 — Visibility
+
+Choose:
+
+* Visible to all students.
+* Visible to selected academic interests.
+* Visible to selected grade levels.
+
+STEP 4 — Review and Publish
+
+Display a complete preview.
+
+Buttons:
+
+* Save as Draft.
+* Publish Challenge.
+
+After publishing, the challenge appears in Professor Challenges for eligible students.
+
+13.3. My Challenges
+
+Display all challenges created by the teacher.
+
+Tabs:
+
+* Published.
+* Drafts.
+* Completed.
+* Archived.
+
+Each challenge card should display:
+
+* Title.
+* Publication status.
+* Deadline.
+* Number of submissions.
+* Number awaiting review.
+
+Allow teachers to edit drafts, close challenges, and archive completed ones.
+
+13.4. Submissions
+
+Create a dedicated submissions management page.
+
+Teachers can:
+
+* View submissions for their own challenges.
+* Open submitted files.
+* Read the student’s optional description.
+* Review submission date.
+* Leave structured feedback.
+* Mark the submission as reviewed.
+
+Do not allow teachers to access submissions belonging to unrelated challenges.
+
+Feedback form:
+
+* Overall comments.
+* Strengths.
+* Areas for improvement.
+* Further recommendations.
+
+Button:
+
+“Send Feedback”
+
+After sending, the student receives a notification.
+
+13.5. Discover Students
+
+Create a student discovery dashboard for authorized academic organizations.
+
+Search and filter by:
+
+* Academic interest.
+* Grade.
+* Region.
+* Demonstrated skills.
+* Projects.
+* Achievements.
+* Challenge participation.
+
+Display student cards with:
+
+* Display name.
+* Grade.
+* Academic interests.
+* Selected achievements.
+* Short biography.
+* Profile visibility status.
+
+Only display profiles that students have chosen to make visible to approved organizations.
+
+Do not allow universities or professors to see private submissions or private profile details without permission.
+
+13.6. Saved Profiles
+
+Allow teachers to bookmark student profiles that they find academically interesting.
+
+Create:
+
+* Saved profile cards.
+* Remove from saved list.
+* Open profile.
+
+PART 14. AI FEATURES AND AI PHILOSOPHY
+
+AI is integrated into the platform, but it must never replace student learning.
+
+All AI features must follow this principle:
+
+“AI supports the process. The student owns the result.”
+
+14.1. Opportunity Discovery Assistant
+
+Helps students discover potentially relevant opportunities.
+
+It asks questions, suggests search directions, explains requirements, and points to official sources.
+
+The student independently reviews requirements and decides whether to apply.
+
+14.2. Growth Plan Assistant
+
+Suggests a development plan based on student interests, goals, and available time.
+
+The student can accept, edit, or reject suggestions.
+
+14.3. Portfolio Assistant
+
+Asks questions and helps students describe their own achievements accurately.
+
+Never invent accomplishments.
+
+14.4. Essay Feedback Assistant
+
+Provides feedback on:
+
+* Structure.
+* Clarity.
+* Argumentation.
+* Logical consistency.
+* Evidence.
+* Relevance to the prompt.
+
+It should not automatically write the entire essay for the student.
+
+14.5. AI Interview Simulator — PREMIUM
+
+Create a dedicated interactive interview simulation.
+
+Students can choose:
+
+* University Admission Interview.
+* Scholarship Interview.
+* Research Program Interview.
+
+The AI acts as an interviewer.
+
+It asks one question at a time, listens to or receives the student’s answer, and asks relevant follow-up questions.
+
+At the end, generate a feedback report:
+
+* Clarity.
+* Argumentation.
+* Critical Thinking.
+* Relevance.
+* Communication.
+* Areas for Improvement.
+
+The AI must not claim to predict actual university admission decisions.
+
+14.6. AI Portfolio Analysis — PREMIUM
+
+Provide a deeper analysis of the student’s existing achievements and demonstrated skills.
+
+14.7. Advanced Growth Plan — PREMIUM
+
+Offer more detailed planning, progress analysis, and personalized adjustments.
+
+PART 15. FREE VS PREMIUM
+
+Keep access to essential academic opportunities free.
+
+FREE:
+
+* Registration.
+* Student profile.
+* Opportunity discovery.
+* Professor Challenges.
+* Challenge submissions.
+* Professor feedback.
+* Basic portfolio.
+* Basic Growth Plan.
+* Basic AI assistance, where available.
+
+PREMIUM:
+
+* AI Interview Simulator with extended sessions.
+* Advanced Essay Feedback.
+* AI Portfolio Analysis.
+* Advanced Growth Plan.
+* More detailed personalized recommendations.
+
+Do not make access to real educational opportunities or professor challenges dependent on payment.
+
+Create a Premium page that explains the benefits without aggressive sales tactics.
+
+Use a clear Upgrade to Premium button.
+
+For the prototype, simulate subscription status rather than collecting real payment information.
+
+PART 16. NOTIFICATIONS
+
+Create a notification center accessible from the top navigation.
+
+Notification examples:
+
+* A professor has published a new challenge matching your interests.
+* Your submission has been received.
+* Your professor has provided feedback.
+* An upcoming opportunity deadline is approaching.
+* A saved opportunity has an updated deadline.
+* Your profile is incomplete.
+
+Allow users to mark notifications as read.
+
+PART 17. SEARCH, NAVIGATION AND INTERACTION RULES
+
+Every visible button must have a meaningful action.
+
+Examples:
+
+* Save Opportunity must save the selected opportunity.
+* View Details must open the correct opportunity.
+* Submit My Work must submit the work to the correct challenge.
+* Create Challenge must open the challenge creation flow.
+* Send Feedback must save and display the feedback.
+* Edit Profile must open the profile editor.
+* Upgrade to Premium must open the Premium page.
+
+Do not create decorative buttons that do nothing.
+
+Use consistent navigation and clear back buttons.
+
+Provide:
+
+* Loading states.
+* Empty states.
+* Success messages.
+* Error messages.
+* Form validation.
+* Confirmation before destructive actions.
+
+Use realistic demo content rather than empty placeholder screens.
+
+PART 18. DATA STRUCTURE AND PERMISSIONS
+
+Design the application around these main data entities:
+
+* Users.
+* Student Profiles.
+* Teacher Profiles.
+* Academic Interests.
+* Opportunities.
+* Professor Challenges.
+* Challenge Submissions.
+* Feedback.
+* Portfolio Achievements.
+* Growth Plans.
+* Growth Plan Tasks.
+* Saved Opportunities.
+* Saved Profiles.
+* Discussions.
+* Comments.
+* Reports.
+* Notifications.
+* Subscription Status.
+
+Important access rules:
+
+* Students can edit their own profiles and portfolios.
+* Students can view their own private submissions and feedback.
+* Teachers can manage only their own challenges and associated submissions.
+* Teachers can view only student profiles made visible to them.
+* Administrators can review reported content according to their permissions.
+* Private files must not be accessible through public URLs.
+* Role permissions must be enforced on the backend, not only hidden in the interface.
+
+If a backend is not configured, create a clearly labeled interactive demo using mock data. Do not pretend that data is securely stored or shared in production.
+
+PART 19. RESPONSIVE DESIGN
+
+The website must work well on:
+
+* Desktop.
+* Laptop.
+* Tablet.
+* Mobile phone.
+
+On desktop:
+
+* Use a persistent sidebar for dashboards.
+* Keep content centered and organized.
+* Use multi-column layouts where appropriate.
+
+On mobile:
+
+* Use compact navigation.
+* Stack cards vertically.
+* Make forms easy to complete.
+* Keep buttons large enough to tap.
+* Avoid horizontal scrolling.
+
+PART 20. MVP IMPLEMENTATION PRIORITIES
+
+Build the application in a coherent order.
+
+Priority 1:
+
+* Landing page.
+* Registration and role selection.
+* Student onboarding.
+* Teacher onboarding.
+* Student dashboard.
+* Teacher dashboard.
+
+Priority 2:
+
+* Discover Opportunities.
+* My Journey.
+* My Portfolio.
+* Professor Challenges.
+* Challenge submission flow.
+* Teacher feedback flow.
+
+Priority 3:
+
+* Discover Students.
+* Saved Profiles.
+* Notifications.
+* Premium page.
+* AI Interview Simulator prototype.
+
+Priority 4:
+
+* Discussions and moderation prototype.
+
+Do not sacrifice the core experience to implement secondary features.
+
+PART 21. FINAL QUALITY REQUIREMENTS
+
+The final prototype must:
+
+1. Look like a polished, professionally designed EdTech startup.
+2. Have a consistent white, matcha green, and soft pink visual identity.
+3. Have separate student and teacher experiences.
+4. Include a complete registration and onboarding flow.
+5. Have clearly separated dashboard sections.
+6. Demonstrate a complete Professor Challenge workflow.
+7. Demonstrate the opportunity discovery process.
+8. Include a meaningful student portfolio.
+9. Show how AI supports students without doing their work.
+10. Include working navigation and interactive controls.
+11. Use clearly labeled demo data.
+12. Be responsive across devices.
+
+Most importantly, demonstrate this complete student journey:
+
+A student registers → chooses academic interests and subjects → discovers relevant opportunities → receives suggestions for a development plan → finds a Professor Challenge → submits an original academic assignment → receives professor feedback → adds selected achievements to their portfolio → chooses whether to make their profile visible to academic organizations.
+
+The platform should communicate one central idea:
+
+We don’t just help students get discovered. We help them become discoverable.
+
+PART 22. VISUAL PERSONALITY, INTERACTIVE COMPANION & MULTILINGUAL SUPPORT
+
+22.1. Refined Visual Identity — Soft Pastel Aesthetic
+
+Refine the existing visual design to make the platform feel softer, warmer, more expressive, and visually memorable.
+
+The interface should use a gentle pastel aesthetic while maintaining a professional international EdTech startup appearance.
+
+Design direction:
+
+* Soft matcha green.
+* Light pastel pink.
+* Creamy white.
+* Pale sage.
+* Muted lavender as a subtle optional accent.
+* Very light neutral backgrounds.
+
+Use soft color transitions, subtle decorative details, delicate borders, gentle shadows, and smooth animations.
+
+The interface should feel calm, welcoming, modern, and pleasant to use for extended periods.
+
+Avoid overly saturated colors, harsh contrasts, childish illustrations, excessive gradients, and distracting animations.
+
+Maintain excellent text readability and accessibility.
+
+The pastel aesthetic must be consistent across the landing page, dashboards, cards, forms, notifications, and interactive elements.
+
+22.2. Interactive Companion — A Small Animated Character
+
+Introduce a distinctive interactive companion that becomes a recognizable part of the platform’s identity.
+His name is Pip.
+The companion should be a small, cute, rounded square-shaped character.
+
+Visual concept:
+
+* A soft pastel-colored square with rounded corners.
+* Minimal facial expression.
+* Small animated eyes and subtle expressions.
+* Smooth, playful movements.
+* Matcha green, pastel pink, or another color matching the current interface.
+* A simple, memorable design that does not distract from the main content.
+
+The character should occasionally slide out from the side of the screen, display a small speech bubble, and make a short comment.
+
+It should feel like a friendly little companion that notices the student’s progress.
+
+Personality
+
+Give the character a playful, witty, slightly sarcastic, encouraging personality.
+
+It can make funny observations, celebrate small achievements, and occasionally make unexpected but harmless comments.
+
+Examples of messages:
+
+Progress and achievements:
+
+* “Wait, you actually completed all your tasks? Iconic.”
+* “Your portfolio is getting suspiciously impressive.”
+* “Another achievement unlocked. Someone’s ambitious.”
+* “Look at you being productive. We love character development.”
+* “Your academic journey is starting to look interesting.”
+
+Streaks and consistency:
+
+* “Three-day streak! You’re becoming a regular here.”
+* “Your streak is alive. Please don’t abandon me now.”
+* “Consistency? In this economy? Impressive.”
+* “Another day, another tiny step towards your future.”
+
+Portfolio:
+
+* “Your portfolio called. It wants more achievements.”
+* “Not to be dramatic, but your projects deserve attention.”
+* “Someone’s building an academic reputation.”
+
+Opportunities:
+
+* “Psst. I found something that might interest you.”
+* “New opportunity detected. Your future called.”
+* “This one looks interesting. Take a look!”
+
+When the student needs motivation:
+
+* “No pressure. One small task is still progress.”
+* “You don’t have to figure out your entire future today.”
+* “Even ambitious people need breaks. Just saying.”
+* “Slow progress is still progress.”
+
+Random playful comments:
+
+* “I was just standing here. Carry on.”
+* “Interesting academic decisions are happening today.”
+* “Your future self might thank you for this.”
+* “I have absolutely no gossip. Only opportunities.”
+
+Context-aware behavior
+
+The companion should respond to actual events in the application whenever possible.
+
+Examples:
+
+* When a student completes a task, celebrate the completion.
+* When a student reaches a new streak milestone, acknowledge it.
+* When a student adds an achievement, congratulate them.
+* When a new opportunity matches their interests, notify them.
+* When a student completes their portfolio, celebrate their progress.
+* When a student returns after being inactive, welcome them without guilt or pressure.
+
+IMPORTANT:
+
+* Never invent achievements, streaks, statistics, or completed tasks.
+* Only make progress-related comments when supported by actual application data.
+* Random comments must not pretend to describe something the student has done.
+* Avoid guilt-tripping, pressure, or negative comments when students are inactive.
+* Do not interrupt important forms, submissions, or reading activities.
+* Do not show notifications too frequently.
+
+Interaction
+
+When the character slides out:
+
+* Display a compact speech bubble.
+* Allow the student to dismiss the message.
+* Allow clicking the character to open a small companion panel.
+* Include a mute or disable option in settings.
+* Make animations smooth and short.
+* Ensure it works on mobile and desktop.
+
+The companion should be a lightweight interface feature, not a replacement for the AI assistants.
+
+Use a predefined set of contextual messages for the prototype. If real AI-generated messages are implemented, keep them short, relevant, and appropriate.
+
+22.3. Multilingual Interface — Kazakh, Russian & English
+
+The platform must support three complete interface languages:
+
+1. Kazakh (Қазақша).
+2. Russian (Русский).
+3. English.
+
+Add a clearly visible language selector in the main navigation and account settings.
+
+Display language options in their native names:
+
+* Қазақша
+* Русский
+* English
+
+Language switching behavior
+
+When a user changes the language:
+
+* Update the entire interface immediately.
+* Translate navigation labels.
+* Translate buttons and forms.
+* Translate dashboard sections.
+* Translate notifications.
+* Translate validation messages and error states.
+* Translate onboarding questions and registration steps.
+* Translate empty states and confirmation messages.
+* Translate the interactive companion’s predefined messages.
+* Keep the user’s selected language across navigation and future sessions whenever persistence is available.
+
+Do not translate only the landing page. The entire application must support all three languages.
+
+Language implementation
+
+Use a centralized internationalization (i18n) structure.
+
+Store interface text in separate translation dictionaries for Kazakh, Russian, and English.
+
+Avoid hardcoding interface text directly inside individual components.
+
+Use consistent terminology across all pages.
+
+Ensure that:
+
+* Kazakh text displays correctly with all required characters.
+* Russian text is grammatically natural.
+* English text sounds professional and natural.
+* Layouts adapt to differences in text length.
+* No buttons or labels become truncated after switching languages.
+
+The default language can be English, but users must be able to switch languages at any time.
+
+The language selector must work in the prototype, not just appear as a decorative button.
+
+22.4. Final Experience
+
+The combination of a refined pastel design, the interactive companion, and multilingual support should make the platform feel distinctive and memorable.
+
+The platform should not feel like a generic academic database.
+
+It should feel like a welcoming digital space where students can explore opportunities, develop their interests, track their progress, and enjoy the process of building their academic future.
