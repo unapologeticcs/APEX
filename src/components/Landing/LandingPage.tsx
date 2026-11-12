@@ -4,7 +4,6 @@ import {
   Sparkles,
   Compass,
   TrendingUp,
-  Share2,
   Award,
   BookOpen,
   CheckCircle2,
@@ -185,23 +184,27 @@ export const LandingPage: React.FC<LandingPageProps> = ({
                 </div>
                 <div className="text-xs font-mono font-bold text-[#78847B] tracking-wider">01. {t.discoverTitle}</div>
                 <h3 className="text-xl font-bold text-[#26332D]">
-                  Find Opportunities You Didn’t Know Existed
+                  {language === 'ru'
+                    ? 'Находите программы, о которых раньше не знали'
+                    : language === 'kk'
+                    ? 'Өзіңіз білмеген мүмкіндіктерді ашыңыз'
+                    : 'Find Opportunities You Didn’t Know Existed'}
                 </h3>
                 <p className="text-xs sm:text-sm text-[#78847B] leading-relaxed">
                   {t.discoverDesc}
                 </p>
               </div>
               <ul className="mt-8 pt-6 border-t border-[#E7ECE6] text-xs text-[#26332D] space-y-2">
-                <li className="flex items-center gap-2">✓ Verified official deadlines & eligibility</li>
-                <li className="flex items-center gap-2">✓ Need-based & merit scholarships catalog</li>
-                <li className="flex items-center gap-2">✓ Tailored to your specific academic curiosity</li>
+                <li className="flex items-center gap-2">✓ {language === 'ru' ? 'Официальные дедлайны и верифицированные критерии' : language === 'kk' ? 'Ресми мерзімдер мен тексерілген критерийлер' : 'Verified official deadlines & eligibility'}</li>
+                <li className="flex items-center gap-2">✓ {language === 'ru' ? 'Каталог олимпиад, летних школ и стипендий' : language === 'kk' ? 'Олимпиадалар, жазғы мектептер және гранттар каталогы' : 'Need-based & merit scholarships catalog'}</li>
+                <li className="flex items-center gap-2">✓ {language === 'ru' ? 'Персонализация под ваши интересы' : language === 'kk' ? 'Сіздің нақты қызығушылықтарыңызға бейімделген' : 'Tailored to your specific academic curiosity'}</li>
               </ul>
             </div>
 
             {/* Stage 2: Develop */}
             <div className="p-8 rounded-3xl bg-white border border-[#E7ECE6] shadow-xs flex flex-col justify-between hover:shadow-md transition-shadow relative">
               <span className="absolute -top-3 right-6 px-3 py-1 bg-[#F6C9D5] text-[#26332D] text-[10px] font-bold rounded-full border border-white">
-                Personalized Growth
+                {language === 'ru' ? 'Персональный рост' : language === 'kk' ? 'Жеке даму' : 'Personalized Growth'}
               </span>
               <div className="space-y-4">
                 <div className="w-12 h-12 rounded-2xl bg-[#F3F7F0] border border-[#E7ECE6] flex items-center justify-center text-[#26332D]">
@@ -209,37 +212,45 @@ export const LandingPage: React.FC<LandingPageProps> = ({
                 </div>
                 <div className="text-xs font-mono font-bold text-[#78847B] tracking-wider">02. {t.developTitle}</div>
                 <h3 className="text-xl font-bold text-[#26332D]">
-                  Build Skills & Structured Portfolio
+                  {language === 'ru'
+                    ? 'Развивайте навыки и структурируйте портфолио'
+                    : language === 'kk'
+                    ? 'Дағдыларды қалыптастырып, портфолио жинаңыз'
+                    : 'Build Skills & Structured Portfolio'}
                 </h3>
                 <p className="text-xs sm:text-sm text-[#78847B] leading-relaxed">
                   {t.developDesc}
                 </p>
               </div>
               <ul className="mt-8 pt-6 border-t border-[#E7ECE6] text-xs text-[#26332D] space-y-2">
-                <li className="flex items-center gap-2">✓ Realistic weekly availability scheduling</li>
-                <li className="flex items-center gap-2">✓ Milestone checklists and habit tracking</li>
-                <li className="flex items-center gap-2">✓ Structured evidence of projects and papers</li>
+                <li className="flex items-center gap-2">✓ {language === 'ru' ? 'Реалистичное планирование учебных часов в неделю' : language === 'kk' ? 'Апталық оқу уақытын нақты жоспарлау' : 'Realistic weekly availability scheduling'}</li>
+                <li className="flex items-center gap-2">✓ {language === 'ru' ? 'Чек-листы этапов и трекинг привычек' : language === 'kk' ? 'Кезеңдік тексеру тізімдері мен әдеттер трекері' : 'Milestone checklists and habit tracking'}</li>
+                <li className="flex items-center gap-2">✓ {language === 'ru' ? 'Подтвержденные артефакты проектов и статей' : language === 'kk' ? 'Жобалар мен мақалалардың расталған дәлелдері' : 'Structured evidence of projects and papers'}</li>
               </ul>
             </div>
 
-            {/* Stage 3: Connect */}
+            {/* Stage 3: Discourse */}
             <div className="p-8 rounded-3xl bg-[#F3F7F0] border border-[#E7ECE6] flex flex-col justify-between hover:shadow-xs transition-shadow">
               <div className="space-y-4">
                 <div className="w-12 h-12 rounded-2xl bg-white border border-[#E7ECE6] flex items-center justify-center text-[#26332D] shadow-xs">
-                  <Share2 className="w-6 h-6 text-[#26332D]" />
+                  <GraduationCap className="w-6 h-6 text-[#26332D]" />
                 </div>
                 <div className="text-xs font-mono font-bold text-[#78847B] tracking-wider">03. {t.connectTitle}</div>
                 <h3 className="text-xl font-bold text-[#26332D]">
-                  Showcase Real Work to Professors
+                  {language === 'ru'
+                    ? 'Академический диалог с профессорами'
+                    : language === 'kk'
+                    ? 'Профессорлармен ғылыми пікірталас'
+                    : 'Scholarly Dialogue with Professors'}
                 </h3>
                 <p className="text-xs sm:text-sm text-[#78847B] leading-relaxed">
                   {t.connectDesc}
                 </p>
               </div>
               <ul className="mt-8 pt-6 border-t border-[#E7ECE6] text-xs text-[#26332D] space-y-2">
-                <li className="flex items-center gap-2">✓ Real university faculty challenges</li>
-                <li className="flex items-center gap-2">✓ Confidential, rigorous academic feedback</li>
-                <li className="flex items-center gap-2">✓ Granular student privacy controls</li>
+                <li className="flex items-center gap-2">✓ {language === 'ru' ? 'Реальные исследовательские челленджи от вузов' : language === 'kk' ? 'ЖОО ғалымдарының шынайы ғылыми тапсырмалары' : 'Real university faculty challenges'}</li>
+                <li className="flex items-center gap-2">✓ {language === 'ru' ? 'Конфиденциальная академическая рецензия' : language === 'kk' ? 'Құпия әрі терең академиялық рецензия' : 'Confidential, rigorous academic feedback'}</li>
+                <li className="flex items-center gap-2">✓ {language === 'ru' ? 'Связь с университетами через реальные результаты' : language === 'kk' ? 'Нақты нәтижелер арқылы университеттермен байланыс' : 'University connections backed by authentic work'}</li>
               </ul>
             </div>
           </div>
